@@ -1,7 +1,7 @@
 const BLOG = {
   title: 'viefane blog',
   author: 'Viefane Ho',
-  email: 'viefane@gmail.com',
+  email: 'suhestyle@gmail.com',
   link: 'https://viefane.vercel.app',
   description: 'In Your Wildest Dreames.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
