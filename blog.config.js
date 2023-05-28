@@ -1,9 +1,9 @@
 const BLOG = {
-  //title: 'IYWD|白日梦',
+  title: '',
   author: 'Viefane',
   email: 'suhestyle@gmail.com',
   link: 'https://viefane.vercel.app',
-  description:'',
+  description:'IYWD|白日梦',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -51,7 +51,7 @@ const BLOG = {
       repo: ''
     },
     cusdisConfig: {
-      appId: '', // data-app-id
+      appId: '11dbbc8e-522c-487b-8fa7-620d7d1f5877', // data-app-id
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
     }
