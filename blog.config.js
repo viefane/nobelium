@@ -13,10 +13,10 @@ const BLOG = {
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2019, // If leave this empty, current year will be used.
   postsPerPage: 11,
-  sortByDate: true,
+  sortByDate: false,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://avatars.githubusercontent.com/u/29298957?s=400&v=4', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/viefaneho',
   seo: {
