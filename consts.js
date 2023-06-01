@@ -48,5 +48,6 @@ exports.FONTS_SERIF = [
   '"AR PL UMing TW MBE"',
   'PMingLiU',
   'MingLiU',
-  'serif'
+  'serif',
+  '"LXGW WenKai Screen"',
 ]
