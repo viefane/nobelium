@@ -23,7 +23,8 @@ exports.FONTS_SANS = [
   '"ST Heiti"',
   'SimHei',
   '"WenQuanYi Zen Hei Sharp"',
-  'sans-serif'
+  'sans-serif',
+  '"LXGW WenKai Screen"',
 ]
 exports.FONTS_SERIF = [
   '"Source Serif"',
