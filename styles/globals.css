@@ -25,7 +25,7 @@
   font-display: swap;
   font-style: normal;
   font-named-instance: 'Regular';
-  src: url('/fonts/SourceSerif.var.woff2') format('woff2');
+  src: url('/fonts/SourceSerif.var.woff') format('woff2');
 }
 
 @font-face {
@@ -38,11 +38,12 @@
 }
 
 @font-face {
-  font-family: 'LXGW WenKai Screen';
+  font-family: 'LXGW WenKai';
   font-weight: 100 900;
   font-display: swap;
   font-style: normal;
-  src: url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css')format('woff2');
+  font-named-instance: 'Regular';
+  src: url('/fonts/LXGWWenKai-Regular.woff2')format('woff2');
 }
 
 html {
