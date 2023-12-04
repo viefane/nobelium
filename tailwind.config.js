@@ -16,7 +16,7 @@ export default {
         }
       },
       fontFamily: {
-        lxgw:['LXGWWenKai-Regular','sans-serif'],
+        lxgw:['LXGWBrightGB-Regular','sans-serif'],
         sans: FONTS_SANS,
         serif: FONTS_SERIF,
         noEmoji: [
