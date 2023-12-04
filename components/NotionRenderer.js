@@ -109,9 +109,9 @@ export default function NotionRenderer (props) {
   const config = useConfig()
 
   const font = {
-    'LXGWBrightGB': FONTS_SERIF,
-    'sans-serif': FONTS_SANS,
-    'serif': FONTS_SERIF
+    'lxgw': FONTS_SERIF,
+    //#region 'sans-serif': FONTS_SANS,
+    //#endregion'serif': FONTS_SERIF
   }[config.font]
 
   // Mark block types to be custom rendered by appending a suffix
