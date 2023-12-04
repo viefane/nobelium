@@ -66,7 +66,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         )}
       </Head>
       <div
-        className={`wrapper ${BLOG.font === 'lxgw' ? 'lxgw' : 'font-serif'
+        className={`wrapper ${BLOG.font === serif ? 'font-serif' : 'font-sans'
           }`}
       >
         <Header
