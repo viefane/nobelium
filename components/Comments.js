@@ -65,6 +65,7 @@ const Comments = ({ frontMatter }) => {
             pageUrl: BLOG.link + router.asPath,
             theme: BLOG.appearance
           }}
+          style={{ fontFamily:BLOG.font }}
         />
       )}
     </div>
