@@ -17,8 +17,8 @@ export default {
       },
       fontFamily: {
         lxgw:['LXGWBrightGB-Regular','sans-serif'],
-        sans: FONTS_SANS,
-        serif: FONTS_SERIF,
+        //#region sans: FONTS_SANS,
+        //#endregion serif: FONTS_SERIF,
         noEmoji: [
           '"IBM Plex Sans"',
           'ui-sans-serif',
