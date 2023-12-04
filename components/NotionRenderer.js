@@ -109,6 +109,7 @@ export default function NotionRenderer (props) {
   const config = useConfig()
 
   const font = {
+    'LXGWBrightGB': FONTS_SERIF,
     'sans-serif': FONTS_SANS,
     'serif': FONTS_SERIF
   }[config.font]
