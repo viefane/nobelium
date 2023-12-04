@@ -24,7 +24,7 @@ exports.FONTS_SANS = [
   'SimHei',
   '"WenQuanYi Zen Hei Sharp"',
   'sans-serif',
-  '"LXGW WenKai"',
+  'LXGWBrightGB',
 ]
 exports.FONTS_SERIF = [
   '"Source Serif"',
@@ -49,5 +49,5 @@ exports.FONTS_SERIF = [
   'PMingLiU',
   'MingLiU',
   'serif',
-  '"LXGW WenKai"',
+  'LXGWBrightGB',
 ]
