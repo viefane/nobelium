@@ -65,7 +65,8 @@ const Comments = ({ frontMatter }) => {
             pageUrl: BLOG.link + router.asPath,
             theme: BLOG.appearance
           }}
-          style={{ fontFamily:BLOG.fontFamily }}
+          style={{ fontFamily:BLOG.font === 'serif' ? 'font-serif' : 'font-sans'
+         }}
         />
       )}
     </div>
