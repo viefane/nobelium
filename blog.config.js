@@ -16,7 +16,7 @@ const BLOG = {
   sortByDate: true,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://avatars.githubusercontent.com/u/29298957?s=400&v=4', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/viefaneho',
   seo: {
@@ -51,7 +51,7 @@ const BLOG = {
       repo: ''
     },
     cusdisConfig: {
-      appId: 'e1046f7a-763e-4d6b-88bc-cea1c676acf4', // data-app-id e1046f7a-763e-4d6b-88bc-cea1c676acf4
+      appId: '', // data-app-id e1046f7a-763e-4d6b-88bc-cea1c676acf4(字体太丑停用)
       host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
     }
