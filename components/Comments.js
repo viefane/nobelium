@@ -36,6 +36,8 @@ const Comments = ({ frontMatter }) => {
         'px-4 font-medium text-gray-500 dark:text-gray-400 my-5',
         fullWidth ? 'md:px-24' : 'mx-auto max-w-2xl',
       )}
+      style={{ fontFamily: 'LXGWBrightGB-Regular,sans-serif !important'
+      }}
     >
       {BLOG.comment && BLOG.comment.provider === 'gitalk' && (
         <GitalkComponent
@@ -65,8 +67,6 @@ const Comments = ({ frontMatter }) => {
             pageUrl: BLOG.link + router.asPath,
             theme: BLOG.appearance
           }}
-          style={{ fontFamily: 'LXGWBrightGB-Regular,sans-serif !important'
-         }}
         />
       )}
     </div>
