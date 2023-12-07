@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'Viefane Blog',
+  title: "Viefane's Blog",
   author: 'Viefane',
   email: 'suhestyle@gmail.com',
   link: 'https://viefane.vercel.app',
@@ -16,7 +16,7 @@ const BLOG = {
   sortByDate: true,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://avatars.githubusercontent.com/u/29298957?s=400&v=4', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/viefaneho',
   seo: {
